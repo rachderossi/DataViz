@@ -9,6 +9,6 @@ sns.scatterplot(data=carseats, x='CompPrice', y='Price', color='#009E73', s=100,
 plt.title('Relação entre o preço da mercadoria na empresa e no concorrente')
 plt.xlabel('Preço no concorrente')
 plt.ylabel('Preço na empresa')
-plt.legend([], [], frameon=False)  # Remover a legenda
+plt.legend([], [], frameon=False) 
 plt.tight_layout()
 plt.show()
