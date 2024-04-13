@@ -1,13 +1,14 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
+import statsmodels.api as sm
 
-iris = sns.load_dataset('iris')
+carseats = sm.datasets.get_rdataset('Carseats', 'ISLR').data
 
 plt.figure(figsize=(10, 6))
-sns.scatterplot(data=iris, x='sepal_length', y='sepal_width', hue='species', palette='tab10', s=100)
-plt.title("Relação entre comprimento e largura das sépalas por espécie")
-plt.xlabel("Comprimento")
-plt.ylabel("Largura")
-plt.legend(title='Espécies', bbox_to_anchor=(1.05, 1), loc='upper left')
-plt.grid(True)
+sns.scatterplot(data=carseats, x='CompPrice', y='Price', color='#009E73', s=100, edgecolor='black')
+plt.title('Relação entre o preço da mercadoria na empresa e no concorrente')
+plt.xlabel('Preço no concorrente')
+plt.ylabel('Preço na empresa')
+plt.legend([], [], frameon=False)  # Remover a legenda
+plt.tight_layout()
 plt.show()
