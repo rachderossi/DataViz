@@ -12,7 +12,8 @@ library(hrbrthemes)
   data_freq <- data_freq[order(data_freq$freq), ]
   
   # Criar o gráfico de pirulito
-  ggplot(data_freq, aes(x = class, y = freq)) +
+  data_freq %>%
+  ggplot(aes(x = class, y = freq)) +
     geom_segment(aes(xend = class, yend = 0), color = "black") +
     geom_point(size = 4, color = "#6E9AF8") +
     coord_flip() +
