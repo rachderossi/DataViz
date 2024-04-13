@@ -11,7 +11,6 @@ mpg = pd.DataFrame(data)
 class_counts = mpg['class'].value_counts().reset_index()
 class_counts.columns = ['class', 'count']
 
-# Criando o gráfico de barras horizontais
 plt.figure(figsize=(10, 6))
 plt.barh(class_counts['class'], class_counts['count'], color='#6E9AF8')
 plt.xlabel('Frequência')
