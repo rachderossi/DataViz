@@ -3,7 +3,7 @@ library(ggplot2)
 library(hrbrthemes)
 
 diamonds %>%
-ggplot(aes(x = cut, y = price, fill = cut)) +
+ggplot(aes(x = cut, y = price, fill = color)) +
     geom_boxplot() +
     xlab("corte") +
     ylab("preço") +
