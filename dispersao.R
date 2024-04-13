@@ -1,13 +1,16 @@
 library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
+library(ISLR)
 
-ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Species)) + 
-  geom_point(size = 3) +
-  ggtitle("Relação entre comprimento e largura das sépalas por espécie") +
-  xlab("Comprimento") +
-  ylab("Largura") +
-  labs(color = "Espécies") +
-  theme(legend.position = "right") + 
-  theme_ipsum() +
-  guides(color = guide_legend(title = NULL))
+  data <- ISLR::Carseats
+  
+  data %>%
+    ggplot(aes(x = CompPrice, y = Price)) + 
+    geom_point(size = 3, color = "#009E73") +
+    ggtitle("Relação entre o preço da mercadoria na empresa e no concorrente") +
+    xlab("preço no concorrente") +
+    ylab("preço na empresa") +
+    theme(legend.position = "left") + 
+    theme_ipsum() +
+    guides(color = guide_legend(title = NULL))
