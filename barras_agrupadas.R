@@ -2,7 +2,8 @@ library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
 
-ggplot(diamonds, aes(x = cut, fill = color)) +
+diamonds %>%
+ggplot(aes(x = cut, fill = color)) +
     geom_bar(position = "dodge") +
     xlab("corte") +
     ylab("frequência") +
