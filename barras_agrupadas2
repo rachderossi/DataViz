@@ -1,4 +1,9 @@
-  data <- babynames %>% 
+library(dplyr)
+library(ggplot2)
+library(hrbrthemes)
+library(babynames)
+
+data <- babynames %>% 
     filter(name %in% c("Anna", "Mary")) %>%
     filter(sex=="F")
   
