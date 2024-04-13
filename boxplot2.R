@@ -1,4 +1,8 @@
-  ggplot(diamonds, aes(x = cut, y = price, fill = cut)) +
+library(dplyr)
+library(ggplot2)
+library(hrbrthemes)
+
+ggplot(diamonds, aes(x = cut, y = price, fill = cut)) +
     geom_boxplot() +
     xlab("corte") +
     ylab("preço") +
