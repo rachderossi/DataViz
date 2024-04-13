@@ -1,17 +1,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
-url = "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum.csv"
-data = pd.read_csv(url)
+# Criando um DataFrame de exemplo similar ao 'mpg'
+data = {
+    'class': ['compact', 'midsize', 'suv', 'midsize', 'compact', 'suv', 'suv', 'compact'],
+}
+mpg = pd.DataFrame(data)
 
-data = data.dropna(subset=['Value']).sort_values(by='Value')
-top_20 = data.tail(20)
+# Contando as ocorrências de cada classe
+class_counts = mpg['class'].value_counts().reset_index()
+class_counts.columns = ['class', 'count']
 
-plt.figure(figsize=(10, 8))
-sns.barplot(x='Value', y='Country', data=top_20)
-plt.title("Quantidade de armas exportadas pelos 20 maiores exportadores em 2017", fontsize=15)
-plt.xlabel("Quantidade de armas", fontsize=12)
-plt.ylabel("Países", fontsize=12)
-plt.grid(axis='x')
+# Criando o gráfico de barras horizontais
+plt.figure(figsize=(10, 6))
+plt.barh(class_counts['class'], class_counts['count'], color='#6E9AF8')
+plt.xlabel('Frequência')
+plt.ylabel('Classe')
+plt.title('Distribuição das classes de veículo')
+plt.gca().invert_yaxis()  
 plt.show()
