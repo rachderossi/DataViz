@@ -2,22 +2,10 @@ library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
 
-data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum.csv", header=TRUE, sep=",")
-
-data %>%
-  filter(!is.na(Value)) %>%
-  arrange(Value) %>%
-  tail(20) %>%
-  mutate(Country=factor(Country, Country)) %>%
-  ggplot( aes(x=Country, y=Value) ) +
-  geom_bar(stat="identity", fill="#69b3a2") +
-  coord_flip() +
-  theme_ipsum() +
-  theme(
-    panel.grid.minor.y = element_blank(),
-    panel.grid.major.y = element_blank(),
-    legend.position="none",
-    plot.title = element_text(hjust = 0.5, size = 15)) +
-  ggtitle("Quantidade de armas exportadas pelos 20 maiores exportadores em 2017") +
-  xlab("Países") +
-  ylab("Quantidade de armas") 
+ggplot(mpg, aes(x = class)) + 
+    geom_bar(fill = "#6E9AF8") +  
+    coord_flip() +
+    xlab("classe") +
+    ylab("frequência") +
+    ggtitle("Distribuição das classes de veículo") +
+    theme_ipsum() 
