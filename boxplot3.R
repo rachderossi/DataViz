@@ -2,7 +2,8 @@ library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
 
-  ggplot(mtcars, aes(x = as.factor(cyl), y = mpg, fill = factor(am, labels = c("Automático", "Manual")))) +
+mtcars %>%
+  ggplot(aes(x = as.factor(cyl), y = mpg, fill = factor(am, labels = c("Automático", "Manual")))) +
     geom_boxplot() +
     xlab("número de cilindros") +
     ylab("milhas por galão") +
