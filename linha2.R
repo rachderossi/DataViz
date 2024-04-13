@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
-library(babynames
+library(babynames)
 
   name <- babynames %>%
     filter(name %in% c("Ashley", "Patricia", "Helen")) %>%
