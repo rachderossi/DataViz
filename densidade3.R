@@ -2,7 +2,8 @@ library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
 
-  ggplot(iris, aes(x = Sepal.Length, fill = Species)) +
+iris %>%
+  ggplot(aes(x = Sepal.Length, fill = Species)) +
     geom_density(alpha = 0.5) + 
     xlab("comprimento da sépala") +
     ylab("densidade") +
