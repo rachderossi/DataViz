@@ -11,10 +11,12 @@ mpg = pd.DataFrame(data)
 class_counts = mpg['class'].value_counts().reset_index()
 class_counts.columns = ['class', 'count']
 
+class_counts = class_counts.sort_values(by='count')
+
 plt.figure(figsize=(10, 6))
-plt.barh(class_counts['class'], class_counts['count'], color='#6E9AF8')
-plt.xlabel('Frequência')
-plt.ylabel('Classe')
+plt.bar(class_counts['class'], class_counts['count'], color='#6E9AF8')
+plt.ylabel('Frequência')
+plt.xlabel('Classe')
 plt.title('Distribuição das classes de veículo')
-plt.gca().invert_yaxis()  
+plt.xticks(rotation=45)
 plt.show()
