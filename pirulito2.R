@@ -9,7 +9,7 @@ library(readr)
 # Lendo os dados de um arquivo CSV hospedado em um repositório do GitHub
  data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum.csv", header=TRUE, sep=",")
 
-# Cria o gráfico de pirulito
+# Criar o gráfico de pirulito
   data %>%
     filter(!is.na(Value)) %>%
     arrange(Value) %>%
