@@ -1,6 +1,7 @@
 library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
+library(readr)
 
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
 # mtcars <- read.csv("caminho/para/seu/arquivo.csv", header = TRUE)
