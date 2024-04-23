@@ -21,7 +21,7 @@ class_counts.columns = ['class', 'freq']
 # Ordena o DataFrame pela frequência em ordem ascendente
 class_counts = class_counts.sort_values(by='freq')
 
-# Cria o gráfico de pirulito
+# Criar o gráfico de pirulito
 plt.figure(figsize=(10, 6))
 plt.hlines(y=class_counts['class'], xmin=0, xmax=class_counts['freq'], color='black')
 plt.plot(class_counts['freq'], class_counts['class'], 'o', color='#6E9AF8', markersize=8)
