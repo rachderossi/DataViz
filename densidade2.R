@@ -2,10 +2,16 @@ library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
 library(ISLR)
+library(readr)
 
-  data <- ISLR::Carseats
+# Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
+# data <- read.csv("caminho/para/seu/arquivo.csv", header = TRUE)
+
+# Lendo o conjunto de dados Carseats do pacote ISLR
+data <- ISLR::Carseats
   
-  data %>%
+# Criar o gráfico de densidade
+data %>%
     filter(Price < 300) %>%
     ggplot() +
     geom_density(aes(x = Price, fill = "preço"), alpha = 0.8) +  
@@ -14,5 +20,5 @@ library(ISLR)
     ggtitle("Distribuição de preço e renda") +
     xlab("valor") +
     ylab("densidade") +
-    theme_ipsum() +
-    guides(fill = guide_legend(title.position = "left", title.hjust = 1, title = NULL)) 
+    guides(fill = guide_legend(title.position = "left", title.hjust = 1, title = NULL)) +
+    theme_ipsum() 
