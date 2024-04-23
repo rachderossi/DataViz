@@ -13,7 +13,7 @@ data = pd.read_csv(url)
 # Filtra os dados para incluir apenas os preços de aluguel menores que 300
 data_filtered = data[data['price'] < 300]
 
-# Cria o gráfico de histograma
+# Criar o gráfico de histograma
 plt.figure(figsize=(10, 6))
 plt.hist(data_filtered['price'], bins=20, color='#69b3a2', edgecolor='#e9ecef', alpha=0.8)
 plt.title("Distribuição de preços de aluguel")
