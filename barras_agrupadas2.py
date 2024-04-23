@@ -26,7 +26,7 @@ filtered_data = filtered_data[filtered_data['year'].isin(selected_years)]
 # Cria uma tabela dinâmica dos percentuais de bebês com os nomes 'Anna' e 'Mary' ao longo dos anos
 data = filtered_data.pivot_table(index='year', columns='name', values='percent', aggfunc='sum', fill_value=0)
 
-# Cria o gráfico de barras agrupadas
+# Criar o gráfico de barras agrupadas
 data.plot(kind='bar', stacked=False, figsize=(12, 6))
 plt.title('Percentual de bebês chamados Anna e Mary ao longo dos anos')
 plt.xlabel('Anos')
