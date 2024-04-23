@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
-# data = pd.read_csv("caminho/para/seu/arquivo.csv")
+# diamonds = pd.read_csv("caminho/para/seu/arquivo.csv")
 
 # Carrega o conjunto de dados 'diamonds' fornecido pela seaborn
 diamonds = sns.load_dataset('diamonds')
