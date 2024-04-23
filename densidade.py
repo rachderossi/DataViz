@@ -14,7 +14,7 @@ data = pd.read_csv(url)
 # Filtra os dados para incluir apenas os preços de aluguel menores que 300
 data_filtered = data[data['price'] < 300]
 
-# Cria o gráfico de densidade
+# Criar o gráfico de densidade
 plt.figure(figsize=(10, 6))
 sns.kdeplot(data=data_filtered['price'], fill=True, color='#69b3a2', alpha=0.8)
 plt.title("Distribuição de preços de aluguel")
