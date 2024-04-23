@@ -8,7 +8,7 @@ import seaborn as sns
 # Carrega o conjunto de dados 'diamonds' fornecido pela seaborn
 diamonds = sns.load_dataset('diamonds')
 
-# Cria o gráfico de barras agrupadas
+# Criar o gráfico de barras agrupadas
 plt.figure(figsize=(10, 6))
 sns.countplot(data=diamonds, x='cut', hue='color', palette='pastel', dodge=True)
 plt.title('Qualidade do corte de diamante de acordo com a cor')
