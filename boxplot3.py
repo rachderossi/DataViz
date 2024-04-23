@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Carrega o conjunto de dados 'mtcars' fornecido pela seaborn
 mtcars = sns.load_dataset('mpg')
 
-# Cria o gráfico dee boxplot
+# Cria o gráfico de boxplot
 plt.figure(figsize=(10, 6))
 sns.boxplot(x='cylinders', y='mpg', data=mtcars, hue='origin', palette=['#009E73', '#6E9AF8', '#FFA07A'])
 plt.title('Consumo de combustível por cilindros e origem')
