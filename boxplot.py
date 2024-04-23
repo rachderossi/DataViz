@@ -7,7 +7,7 @@ import seaborn as sns
 # Carrega o conjunto de dados 'mpg' fornecido pela seaborn
 mpg = sns.load_dataset('mpg')
 
-# Cria o gráfico de boxplot
+# Criar o gráfico de boxplot
 plt.figure(figsize=(10, 6))
 sns.boxplot(data=mpg, x='origin', y='mpg')
 plt.title("Consumo de combustível por origem de veículo")
