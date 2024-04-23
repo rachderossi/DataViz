@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Carrega o conjunto de dados 'iris' fornecido pela seaborn
 iris = sns.load_dataset('iris')
 
-# Cria o gráfico de densidade
+# Criar o gráfico de densidade
 plt.figure(figsize=(10, 6))
 sns.kdeplot(data=iris, x='sepal_length', hue='species', fill=True, alpha=0.5)
 plt.title('Distribuição do comprimento da sépala por espécie de flor')
