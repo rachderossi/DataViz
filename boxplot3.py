@@ -2,7 +2,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
-# diamonds = pd.read_csv("caminho/para/seu/arquivo.csv")
+# mtcars = pd.read_csv("caminho/para/seu/arquivo.csv")
 
 # Carrega o conjunto de dados 'mtcars' fornecido pela seaborn
 mtcars = sns.load_dataset('mpg')
