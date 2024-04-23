@@ -12,7 +12,7 @@ df = pd.DataFrame({
               8197.80, 8285.96, 8371.15, 8338.42, 8140.71]
 })
 
-# Cria o gráfico de dispersão conectado
+# Criar o gráfico de dispersão conectado
 plt.figure(figsize=(10, 6))
 plt.plot(df['Date'], df['Value'], marker='o', linestyle='-', color='grey', markersize=6, label='_nolegend_')
 plt.scatter(df['Date'], df['Value'], color='#69b3a2', edgecolor='black', s=150)
