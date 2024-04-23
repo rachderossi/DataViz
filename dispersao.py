@@ -8,7 +8,7 @@ import statsmodels.api as sm
 # Carrega o conjunto de dados 'Carseats' da biblioteca ISLR e carrega os dados
 carseats = sm.datasets.get_rdataset('Carseats', 'ISLR').data
 
-# Cria o gráfico de dispersão
+# Criar o gráfico de dispersão
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=carseats, x='CompPrice', y='Price', color='#009E73', s=100, edgecolor='black')
 plt.title('Relação entre o preço da mercadoria na empresa e no concorrente')
