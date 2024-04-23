@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
-# carseats_filtered = pd.read_csv("caminho/para/seu/arquivo.csv")
+# carseats = pd.read_csv("caminho/para/seu/arquivo.csv")
 
 # Obtém o conjunto de dados 'Carseats' da biblioteca ISLR e carrega os dados
 carseats = sm.datasets.get_rdataset('Carseats', 'ISLR').data
