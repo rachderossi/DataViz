@@ -17,7 +17,7 @@ frequencias <- c(50, 30, 40, 35, 25, 20, 45, 15, 10, 5)
 # contendo as frequências associadas a cada país
 df_paises <- data.frame(Pais = paises, Frequencia = frequencias)
 
-# Cria o gráfico de nuvem de palavras
+# Criar o gráfico de nuvem de palavras
 wordcloud(words = df_paises$Pais, freq = df_paises$Frequencia, scale = c(5, 0.5), 
           max.words = 10, min.freq = 1, random.order = FALSE, 
           colors=brewer.pal(8, "Dark2"))
