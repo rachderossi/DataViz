@@ -19,6 +19,6 @@ df = df.set_index('model')
 my_palette = dict(zip(df.cyl.unique(), ["orange","yellow","brown"]))
 row_colors = df.cyl.map(my_palette)
 
-# Cria o mapa de calor
+# Criar o mapa de calor
 sns.clustermap(df, metric="correlation", method="single", cmap="Blues", standard_scale=1, row_colors=row_colors)
 plt.show()
