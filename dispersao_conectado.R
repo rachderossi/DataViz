@@ -1,14 +1,23 @@
 library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
+# Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
+# data <- read.csv("caminho/para/seu/arquivo.csv", header = TRUE)
 
+# Lendo os dados de um arquivo CSV hospedado em um repositório do GitHub
   data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered.csv", header = TRUE)
-  data$date <- as.Date(data$date)
-  
+
+# Convertendo a coluna de datas para o formato de data
+# Isso é importante para que o gráfico reconheça as datas corretamente  
+data$date <- as.Date(data$date)
+
+# Filtrando uma data específica
   data_filtrado <- data %>%
     filter(format(date, "%Y-%m") == "2018-04")
-  
-  ggplot(data_filtrado, aes(x = date, y = value)) +
+
+# Criar o gráfico de dispersão conectado
+  data_filtrado %>%
+    ggplot(aes(x = date, y = value)) +
     geom_point(shape=21, color="black", fill="#69b3a2", size=2) +
     geom_line(color = "#69b3a2") +
     ggtitle("Evolução do preço do Bitcoin em abril de 2018") +
