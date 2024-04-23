@@ -15,7 +15,7 @@ data_freq <- data.frame(class = names(freq_class), freq = as.numeric(freq_class)
 # Ordena o data frame pela frequência em ordem ascendente
 data_freq <- arrange(data_freq, freq)
 
-# Cria o gráfico de pirulito
+# Criar o gráfico de pirulito
   data_freq %>%
     ggplot(aes(x = reorder(class, freq), y = freq)) +
     geom_segment(aes(xend = reorder(class, freq), yend = 0), color = "black") +
