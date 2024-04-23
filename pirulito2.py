@@ -11,7 +11,7 @@ data = pd.read_csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/
 # em ordem ascendente, em seguida, seleciona as 20 maiores linhas
 data_filtered = data.dropna(subset=['Value']).sort_values('Value').tail(20)
 
-# Cria o gráfico de pirulito
+# Criar o gráfico de pirulito
 plt.figure(figsize=(10, 6))
 plt.hlines(y=data_filtered['Country'], xmin=0, xmax=data_filtered['Value'], color='grey')
 plt.plot(data_filtered['Value'], data_filtered['Country'], 'o', color='#69b3a2', markersize=8)
