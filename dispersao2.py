@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Carrega o conjunto de dados 'iris' fornecido pela seaborn
 iris = sns.load_dataset('iris')
 
-# Cria o gráfico de dispersão
+# Criar o gráfico de dispersão
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=iris, x='sepal_length', y='sepal_width', hue='species', palette='Set1', s=100)
 plt.title('Relação entre comprimento e largura das sépalas por espécie')
