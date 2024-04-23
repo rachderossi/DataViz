@@ -16,12 +16,12 @@ data_freq <- data.frame(class = names(freq_class), freq = as.numeric(freq_class)
 data_freq <- arrange(data_freq, freq)
 
 # Cria o gráfico de pirulito
-data_freq %>%
-  ggplot(aes(x = reorder(class, freq), y = freq)) +
-  geom_segment(aes(xend = reorder(class, freq), yend = 0), color = "black") +
-  geom_point(size = 4, color = "#6E9AF8") +
-  coord_flip() +
-  xlab("classe") +
-  ylab("frequência") +
-  ggtitle("Distribuição das classes de veículo") +
-  theme_ipsum()
+  data_freq %>%
+    ggplot(aes(x = reorder(class, freq), y = freq)) +
+    geom_segment(aes(xend = reorder(class, freq), yend = 0), color = "black") +
+    geom_point(size = 4, color = "#6E9AF8") +
+    ggtitle("Distribuição das classes de veículo") +
+    xlab("classe") +
+    ylab("frequência") +
+    coord_flip() +
+    theme_ipsum()
