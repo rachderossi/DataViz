@@ -19,7 +19,7 @@ sex = 'girl'
 # Filtra os dados para incluir apenas os nomes especificados e do sexo especificado
 filtered_data = baby_names[(baby_names['name'].isin(names)) & (baby_names['sex'] == sex)]
 
-# Cria o gráfico de linha
+# Criar o gráfico de linha
 plt.figure(figsize=(10, 6))
 for name, color in zip(names, ['#6E9AF8', '#009E73', '#FFA07A']):
     data = filtered_data[filtered_data['name'] == name]
