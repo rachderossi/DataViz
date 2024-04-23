@@ -17,7 +17,7 @@ data["date"] = pd.to_datetime(data["date"])
 date = data["date"]
 value = data["value"]
 
-# Cria o gráfico de área
+# Criar o gráfico de área
 plt.figure(figsize=(10, 6))
 plt.fill_between(data['date'], data['value'], color="#69b3a2", alpha=0.5, zorder=1)
 plt.title("Evolução do preço do Bitcoin")
