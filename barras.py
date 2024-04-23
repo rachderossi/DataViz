@@ -21,7 +21,7 @@ class_counts.columns = ['class', 'count']
 # Ordena as contagens pelo número de ocorrências
 class_counts = class_counts.sort_values(by='count')
 
-# Criar o gráfico de barras
+# Cria o gráfico de barras
 plt.figure(figsize=(10, 6))
 plt.bar(class_counts['class'], class_counts['count'], color='#6E9AF8')
 plt.title('Distribuição das classes de veículo')
