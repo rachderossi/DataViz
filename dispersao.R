@@ -2,9 +2,15 @@ library(dplyr)
 library(ggplot2)
 library(hrbrthemes)
 library(ISLR)
+library(readr)
 
+# Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
+# data <- read.csv("caminho/para/seu/arquivo.csv", header = TRUE)
+
+# Lendo o conjunto de dados Carseats do pacote ISLR
   data <- ISLR::Carseats
-  
+
+# Criar o gráfico de dispersão
   data %>%
     ggplot(aes(x = CompPrice, y = Price)) + 
     geom_point(size = 3, color = "#009E73") +
@@ -12,5 +18,5 @@ library(ISLR)
     xlab("preço no concorrente") +
     ylab("preço na empresa") +
     theme(legend.position = "left") + 
-    theme_ipsum() +
-    guides(color = guide_legend(title = NULL))
+    guides(color = guide_legend(title = NULL)) +
+    theme_ipsum() 
