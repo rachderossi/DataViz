@@ -11,7 +11,7 @@ carseats = sm.datasets.get_rdataset('Carseats', 'ISLR').data
 # Filtra os dados para incluir apenas os preços de carseat menores que 300
 carseats_filtered = carseats[carseats['Price'] < 300]
 
-# Cria o gráfico de histograma
+# Criar o gráfico de histograma
 plt.figure(figsize=(10, 6))
 sns.histplot(data=carseats_filtered, x='Price', color='#6E9AF8', alpha=0.8, fill=True, label='Preço')
 sns.histplot(data=carseats_filtered, x='CompPrice', color='#009E73', alpha=0.8, fill=True, label='Renda')
