@@ -12,7 +12,7 @@ library(readr)
     filter(name %in% c("Ashley", "Patricia", "Helen")) %>%
     filter(sex == "F")
 
-# Criar o gráfico de linhas
+# Criar o gráfico de linha
   name %>%
     ggplot(aes(x = year, y = n, group = name, color = name)) +
     geom_line() +
