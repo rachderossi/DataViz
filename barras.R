@@ -8,8 +8,9 @@ library(readr)
 
 # Criar o gráfico de barras
  mpg %>%
-    count(class) %>%
-    mutate(class = reorder(class, n)) %>%
+    count(class) %>% # substitua class pela sua variável categórica
+    # caso exista, substitua n pela sua coluna de frequência
+    mutate(class = reorder(class, n)) %>% # ordenando a variável pela frequência
     ggplot(aes(x = class, y = n)) + 
     geom_bar(fill = "#6E9AF8", stat = "identity") + 
     ggtitle("Distribuição das classes de veículo") +
