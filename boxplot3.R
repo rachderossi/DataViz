@@ -16,6 +16,6 @@ library(readr)
     ggtitle("Consumo de combustível por cilindros e tipo de transmissão") +
     xlab("número de cilindros") +
     ylab("milhas por galão") +
-    scale_fill_manual(values = c("#009E73", "#6E9AF8")) + # é possível definir cores para cada grupo
+    scale_fill_manual(values = c("#009E73", "#6E9AF8")) + # É possível definir cores para cada grupo
     guides(fill = guide_legend(title = NULL)) +
     theme_ipsum() 
