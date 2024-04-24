@@ -11,6 +11,7 @@ url = "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_datas
 data = pd.read_csv(url)
 
 # Filtra os dados para incluir apenas os preços de aluguel menores que 300
+# Necessário apenas se quiser filtrar valores específicos
 data_filtered = data[data['price'] < 300]
 
 # Criar o gráfico de histograma
