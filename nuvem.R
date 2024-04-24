@@ -7,9 +7,11 @@ library(readr)
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
 # paises <- read.csv("caminho/para/seu/arquivo.csv", header = TRUE)
 
+# A linha 8 substitui essa, pois aqui estou criando dados fictícios
 # Cria um vetor chamado 'paises' contendo os nomes dos países
 paises <- c("Brasil", "Estados Unidos", "Canadá", "Reino Unido", "França", "Alemanha", "Austrália", "Japão", "China", "Índia")
 
+# Caso você já tenha a variável de frequência calculada pode pular para a linha 23
 # Cria um vetor chamado 'frequencias' contendo as frequências associadas a cada país
 frequencias <- c(50, 30, 40, 35, 25, 20, 45, 15, 10, 5)
 
