@@ -8,7 +8,7 @@ library(readr)
 
 # Criar o gráfico de densidade
   iris %>%
-    ggplot(aes(x = Sepal.Length, fill = Species)) +
+    ggplot(aes(x = Sepal.Length, fill = Species)) +  # fill é a variável que agrupa os dados
     geom_density(alpha = 0.5) + 
     ggtitle("Distribuição do comprimento da sépala por espécie de flor") +
     xlab("comprimento da sépala") +
