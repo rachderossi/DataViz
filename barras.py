@@ -10,7 +10,7 @@ data = {
     'class': ['compact', 'midsize', 'suv', 'midsize', 'compact', 'suv', 'suv', 'compact'],
 }
 
-# Caso você já tenha a variável de frequência calculado pode pular para a linha 23
+# Caso você já tenha a variável de frequência calculado pode pular para a linha 24
 # Cria um DataFrame chamado 'mpg' com os dados fornecidos
 mpg = pd.DataFrame(data)
 
