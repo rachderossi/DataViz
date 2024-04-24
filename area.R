@@ -12,7 +12,6 @@ data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/
 # Se a sua variável ordenada for uma data no formato "yyyy-mm-dd" é possível converter para um formato de data
 # Convertendo a coluna de datas para o formato de data
 # Isso é importante para que o gráfico reconheça as datas corretamente
-# Se sua variável já estiver no formato correto, ou conter apenas o ano não é necessário executar essa linha
 data$date <- as.Date(data$date)
 
 # Criar o gráfico de área
