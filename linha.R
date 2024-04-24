@@ -9,13 +9,14 @@ library(readr)
 # Lendo os dados de um arquivo CSV hospedado em um repositório do GitHub
   data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered.csv", header=T)
 
+# Se a sua variável ordenada for uma data no formato "yyyy-mm-dd" é possível converter para um formato de data
 # Convertendo a coluna de datas para o formato de data
 # Isso é importante para que o gráfico reconheça as datas corretamente  
 data$date <- as.Date(data$date)
 
 # Criar o gráfico de linha
   data %>%
-    ggplot( aes(x=date, y=value)) +
+    ggplot(aes(x=date, y=value)) +
     geom_line(color="#69b3a2") +
     ggtitle("Evolução do preço do Bitcoin") +
     xlab("ano") +
