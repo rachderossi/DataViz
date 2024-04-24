@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
 # df = pd.read_csv("caminho/para/seu/arquivo.csv")
 
+# A linha 5 substitui essa, pois aqui estou criando dados fictícios
 # Cria um DataFrame com as datas e os valores correspondentes
 df = pd.DataFrame({
     'Date': ["23-Abr", "22-Abr", "21-Abr", "20-Abr", "19-Abr", 
@@ -14,6 +15,7 @@ df = pd.DataFrame({
 
 # Criar o gráfico de dispersão conectado
 plt.figure(figsize=(10, 6))
+# date é a variável x e value é a variável y
 plt.plot(df['Date'], df['Value'], marker='o', linestyle='-', color='grey', markersize=6, label='_nolegend_')
 plt.scatter(df['Date'], df['Value'], color='#69b3a2', edgecolor='black', s=150)
 plt.title("Evolução do preço do Bitcoin")
