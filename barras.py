@@ -14,13 +14,13 @@ data = {
 # Cria um DataFrame chamado 'mpg' com os dados fornecidos
 mpg = pd.DataFrame(data)
 
-# Conta o número de ocorrências de cada classe de veículo e armazena em 'class_counts'
+# Conta o número de frequência de cada classe de veículo e armazena em 'class_counts'
 class_counts = mpg['class'].value_counts().reset_index()
 
 # Renomeia as colunas para 'class' e 'count'
 class_counts.columns = ['class', 'count']
 
-# Ordena as contagens pelo número de ocorrências
+# Ordena as contagens pela frequência
 class_counts = class_counts.sort_values(by='count')
 # Se a sua variável frequência já estiver calculada:
 # data = data.sort_values(by='frequencia')
