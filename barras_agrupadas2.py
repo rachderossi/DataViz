@@ -8,6 +8,7 @@ import seaborn as sns
 # Define a URL do arquivo CSV contendo os dados de nomes de bebês
 url = "https://github.com/hadley/data-baby-names/raw/master/baby-names.csv"
 
+# Caso não seja necessário filtrar seus dados pule para a linha 28
 # Lê os dados do arquivo CSV e os carrega em um DataFrame chamado 'babynames'
 babynames = pd.read_csv(url)
 
@@ -24,6 +25,7 @@ selected_years = [1950, 1960, 1970, 1980]
 filtered_data = filtered_data[filtered_data['year'].isin(selected_years)]
 
 # Cria uma tabela dinâmica dos percentuais de bebês com os nomes 'Anna' e 'Mary' ao longo dos anos
+# index é a variável x, columns é a variável que agrupa os dados, values é a variável y
 data = filtered_data.pivot_table(index='year', columns='name', values='percent', aggfunc='sum', fill_value=0)
 
 # Criar o gráfico de barras agrupadas
