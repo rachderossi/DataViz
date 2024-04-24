@@ -10,6 +10,7 @@ data = pd.read_csv(
     delim_whitespace=True
 )
 
+# Se a sua variável ordenada for uma data é importe converter para o formato correto
 # Converte a coluna 'date' para o tipo datetime
 data["date"] = pd.to_datetime(data["date"])
 
