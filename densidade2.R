@@ -17,7 +17,7 @@ data %>%
     ggplot() +
     geom_density(aes(x = Price, fill = "preço"), alpha = 0.8) +  
     geom_density(aes(x = CompPrice, fill = "renda"), alpha = 0.8) +  
-    scale_fill_manual(values = c("#6E9AF8", "#009E73"), name = NULL) +
+    scale_fill_manual(values = c("#6E9AF8", "#009E73"), name = NULL) + # É possível definir cores para cada grupo
     ggtitle("Distribuição de preço e renda") +
     xlab("valor") +
     ylab("densidade") +
