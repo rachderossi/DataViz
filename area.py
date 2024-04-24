@@ -12,6 +12,7 @@ data = pd.read_csv(
 
 # Se a sua variável ordenada for uma data no formato "yyyy-mm-dd" é possível converter para um formato de data
 # Converte a coluna 'date' para o tipo datetime
+# Isso é importante para que o gráfico reconheça as datas corretamente
 data["date"] = pd.to_datetime(data["date"])
 
 # Criar o gráfico de área
