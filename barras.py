@@ -24,6 +24,7 @@ class_counts = class_counts.sort_values(by='count')
 
 # Criar o gráfico de barras
 plt.figure(figsize=(10, 6))
+# class é a variável x e count é a variável y
 plt.bar(class_counts['class'], class_counts['count'], color='#6E9AF8')
 plt.title('Distribuição das classes de veículo')
 plt.xlabel('Classe')
