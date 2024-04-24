@@ -8,7 +8,7 @@ import seaborn as sns
 # Define a URL do arquivo CSV contendo os dados de nomes de bebês
 url = "https://github.com/hadley/data-baby-names/raw/master/baby-names.csv"
 
-# Caso não seja necessário filtrar seus dados pule para a linha 28
+# Caso não seja necessário filtrar seus dados pule para a linha 29
 # Lê os dados do arquivo CSV e os carrega em um DataFrame chamado 'babynames'
 babynames = pd.read_csv(url)
 
