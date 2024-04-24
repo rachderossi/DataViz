@@ -10,15 +10,14 @@ data = pd.read_csv(
     delim_whitespace=True
 )
 
-# Converte a coluna 'date' para o formato de data e hora
+# Se a sua variável ordenada for uma data no formato "yyyy-mm-dd" é possível converter para um formato de data
+# Converte a coluna 'date' para o tipo datetime
+# Isso é importante para que o gráfico reconheça as datas corretamente
 data["date"] = pd.to_datetime(data["date"])
-
-# Extrai as colunas 'date' e 'value' do DataFrame para facilitar a visualização
-date = data["date"]
-value = data["value"]
 
 # Criar o gráfico de linha
 plt.figure(figsize=(10, 6))
+# date é a variável x e value é a variável y
 plt.plot(date, value, color="#69b3a2", alpha=0.5, zorder=1)
 plt.title("Evolução do preço do Bitcoin")
 plt.xlabel("Ano")
