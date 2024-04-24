@@ -10,13 +10,9 @@ data = pd.read_csv(
     delim_whitespace=True
 )
 
-# Se a sua variável ordenada for uma data é importe converter para o formato correto
+# Se a sua variável ordenada for uma data no formato "yyyy-mm-dd" é possível converter para um formato de data
 # Converte a coluna 'date' para o tipo datetime
 data["date"] = pd.to_datetime(data["date"])
-
-# Extrai as colunas 'date' e 'value' do DataFrame 'data'
-date = data["date"]
-value = data["value"]
 
 # Criar o gráfico de área
 plt.figure(figsize=(10, 6))
