@@ -8,11 +8,14 @@ library(readr)
 
 # Criar o gráfico de boxplot
   mtcars %>%
+    # a variável x está sendo convertida para fator, pois "cyl" é uma variável numérica
+    # fill é a variável que agrupa os dados
+    # labels define o nome de cada grupo, é possível ser customizado pela quantidade de grupos 
     ggplot(aes(x = as.factor(cyl), y = mpg, fill = factor(am, labels = c("Automático", "Manual")))) +
     geom_boxplot() +
     ggtitle("Consumo de combustível por cilindros e tipo de transmissão") +
     xlab("número de cilindros") +
     ylab("milhas por galão") +
-    scale_fill_manual(values = c("#009E73", "#6E9AF8")) +
+    scale_fill_manual(values = c("#009E73", "#6E9AF8")) + # é possível definir cores para cada grupo
     guides(fill = guide_legend(title = NULL)) +
     theme_ipsum() 
