@@ -15,12 +15,12 @@ library(readr)
 
 # Criar o gráfico de barras agrupadas
   data  %>% 
-    filter(year %in% c(1950, 1960, 1970, 1980, 1990, 2000)) %>% # necessário apenas se quiser filtrar valores específicos
-    mutate(year=as.factor(year)) %>% # transformando o ano para uma variável categórica
-    # caso exista, substitua n pela sua variável de frequência, fill é a variável que agrupa os dados
+    filter(year %in% c(1950, 1960, 1970, 1980, 1990, 2000)) %>% # Necessário apenas se quiser filtrar valores específicos
+    mutate(year=as.factor(year)) %>% # Transformando o ano para uma variável categórica
+    # Caso exista, substitua n pela sua variável de frequência, fill é a variável que agrupa os dados
     ggplot( aes(x=year, y=n, fill=name)) +  
     geom_bar(stat="identity", position="dodge") +
-    scale_fill_manual(values = c("Anna" = "#6E9AF8", "Mary" = "#69b3a2")) + # é possível definir cores para cada grupo
+    scale_fill_manual(values = c("Anna" = "#6E9AF8", "Mary" = "#69b3a2")) + # É possível definir cores para cada grupo
     ggtitle("Número de bebês chamados Anna e Mary ao longo dos anos") +
     ylab("número de bebês") +
     xlab("anos") +
