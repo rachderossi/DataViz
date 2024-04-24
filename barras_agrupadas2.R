@@ -8,6 +8,7 @@ library(readr)
 # data <- read.csv("caminho/para/seu/arquivo.csv", header = TRUE)
 
 # Filtrando o conjunto de dados babynames pelo nome e sexo de interesse
+# Caso não seja necessário filtrar seus dados pule para a linha 17
   data <- babynames %>% 
     filter(name %in% c("Anna", "Mary")) %>%
     filter(sex=="F")
