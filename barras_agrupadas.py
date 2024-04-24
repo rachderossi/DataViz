@@ -10,7 +10,7 @@ diamonds = sns.load_dataset('diamonds')
 
 # Criar o gráfico de barras agrupadas
 plt.figure(figsize=(10, 6))
-# fill é a variável que agrupa os dados
+# hue é a variável que agrupa os dados
 sns.countplot(data=diamonds, x='cut', hue='color', palette='pastel', dodge=True)
 plt.title('Qualidade do corte de diamante de acordo com a cor')
 plt.xlabel('Corte')
