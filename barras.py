@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
 # data = pd.read_csv("caminho/para/seu/arquivo.csv")
 
+# A linha 5 substitui essa, pois aqui estou criando dados fictícios
 # Define um dicionário com os dados das classes de veículo, pois não estou usando nenhum arquivo CSV
 data = {
     'class': ['compact', 'midsize', 'suv', 'midsize', 'compact', 'suv', 'suv', 'compact'],
