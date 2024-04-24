@@ -9,6 +9,7 @@ mtcars = sns.load_dataset('mpg')
 
 # Criar o gráfico de boxplot
 plt.figure(figsize=(10, 6))
+# hue é a variável que agrupa os dados
 sns.boxplot(data=mtcars, x='cylinders', y='mpg', hue='origin', palette=['#009E73', '#6E9AF8', '#FFA07A'])
 plt.title('Consumo de combustível por cilindros e origem')
 plt.xlabel('Número de cilindros')
