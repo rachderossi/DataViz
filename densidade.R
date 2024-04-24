@@ -11,7 +11,7 @@ library(readr)
 
 # Criar o gráfico de densidade
   data %>%
-    filter(price<300 ) %>% # necessário apenas se quiser filtrar valores específicos
+    filter(price<300 ) %>% # Necessário apenas se quiser filtrar valores específicos
     ggplot(aes(x=price)) +
     geom_density(fill="#69b3a2", color="#e9ecef", alpha=0.8) +
     ggtitle("Distribuição de preços de aluguel") +
