@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
 # diamonds = pd.read_csv("caminho/para/seu/arquivo.csv")
 
+# A linha 5 substitui essa, pois aqui estou utilizando dados de uma base de dados do Python
 # Carrega o conjunto de dados 'diamonds' fornecido pela seaborn
 diamonds = sns.load_dataset('diamonds')
 
