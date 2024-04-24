@@ -11,12 +11,13 @@ library(readr)
 
 # Criar o gráfico de pirulito
   data %>%
-    filter(!is.na(Value)) %>%
+    filter(!is.na(Value)) %>% # Necessário apenas se houverem valores nulos na variável y
+    # Ordenando e filtrando as 20 primeiras linhas
     arrange(Value) %>%
     tail(20) %>%
     mutate(Country=factor(Country, Country)) %>%
-    ggplot( aes(x=Country, y=Value) ) +
-    geom_segment( aes(x=Country ,xend=Country, y=0, yend=Value), color="grey") +
+    ggplot(aes(x=Country, y=Value) ) +
+    geom_segment(aes(x=Country ,xend=Country, y=0, yend=Value), color="grey") +
     geom_point(size=3, color="#69b3a2") +
     theme(
       panel.grid.minor.y = element_blank(),
