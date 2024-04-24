@@ -6,6 +6,7 @@ library(readr)
 # Substitua "caminho/para/seu/arquivo.csv" pelo caminho do arquivo CSV em sua máquina
 # data_freq <- read.csv("caminho/para/seu/arquivo.csv", header = TRUE)
 
+# Caso você já tenha a variável de frequência calculada pode pular para a linha 17
 # Conta a frequência de cada classe de veículo
 freq_class <- table(mpg$class)
 
@@ -17,6 +18,7 @@ data_freq <- arrange(data_freq, freq)
 
 # Criar o gráfico de pirulito
   data_freq %>%
+    # class é a variável x e freq é a variável y
     ggplot(aes(x = reorder(class, freq), y = freq)) +
     geom_segment(aes(xend = reorder(class, freq), yend = 0), color = "black") +
     geom_point(size = 4, color = "#6E9AF8") +
