@@ -8,7 +8,7 @@ library(readr)
 
 # Criar o gráfico de boxplot
   diamonds %>%
-    ggplot(aes(x = cut, y = price, fill = color)) +
+    ggplot(aes(x = cut, y = price, fill = color)) + # fill é a variável que agrupa os dados
     geom_boxplot() +
     ggtitle("Distribuição do preço dos diamantes por corte e cor") +
     xlab("corte") +
