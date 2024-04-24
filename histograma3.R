@@ -8,6 +8,7 @@ library(readr)
 
 # Criar o gráfico de histograma
     iris %>%
+      # fill é a variável que agrupa os dados
       ggplot(aes(x = Petal.Length, fill = Species)) +
       geom_histogram(binwidth = 0.2, alpha = 0.5, position = "identity") +
       ggtitle("Distribuição do comprimento da sépala por espécie de flor") +
