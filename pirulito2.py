@@ -14,6 +14,7 @@ data_filtered = data.dropna(subset=['Value']).sort_values('Value').tail(20)
 # Criar o gráfico de pirulito
 plt.figure(figsize=(10, 6))
 plt.hlines(y=data_filtered['Country'], xmin=0, xmax=data_filtered['Value'], color='grey')
+# country é a variável x e value é a variável y
 plt.plot(data_filtered['Value'], data_filtered['Country'], 'o', color='#69b3a2', markersize=8)
 plt.title("Quantidade de armas exportadas pelos 20 maiores exportadores em 2017")
 plt.xlabel("Quantidade de armas")
