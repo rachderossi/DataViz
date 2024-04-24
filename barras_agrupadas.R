@@ -8,7 +8,7 @@ library(readr)
 
 # Criar o gráfico de barras agrupadas
   diamonds %>%
-    # color é a variável y
+    # fill é a variável que agrupa os dados
     ggplot(aes(x = cut, fill = color)) +
     geom_bar(position = "dodge") +
     ggtitle("Qualidade do corte de diamante de acordo com a cor") +
