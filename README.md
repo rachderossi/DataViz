@@ -2,7 +2,7 @@
 
 Aqui estão todos os códigos utilizados para gerar os gráficos do aplicativo DataViz.
 
-## Histograma - Microsoft Exel
+## Histograma - Microsoft Excel
 
 Após abrir a base de dados no Microsoft Excel:
 
