@@ -27,7 +27,7 @@ Após abrir a base de dados no Microsoft Excel:
 
 - Na aba Configuração escolha Dispersão
 - É possível clicar na aba Personalizar ao lado de Configurações para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/1e142ac3-6547-418d-88a0-a21091c48bc6" width = "300" height ="500">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/1e142ac3-6547-418d-88a0-a21091c48bc6" width = "800" height ="500">
 
 - O gráfico deve se parecer com esse
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/9b70f5c3-16f4-417a-b68c-11d1ed92ca88" width = "800" height ="600">
