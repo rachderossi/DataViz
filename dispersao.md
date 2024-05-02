@@ -13,3 +13,13 @@ Após abrir a base de dados no Microsoft Excel:
 
 - O gráfico deve se parecer com esse
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/9b70f5c3-16f4-417a-b68c-11d1ed92ca88" width = "700" height ="600">
+
+## Dispersão - Looker Studio
+
+Após abrir o looker studio no seu navegador de preferência:
+
+- Clique em Relatório em branco
+<img width="1040" alt="image" src="https://github.com/rachderossi/DataViz/assets/64082110/d500679b-a633-47dd-82e6-906dd3857bc9">
+
+- Clique em Adicionar dados e escolha a conexão de sua preferência
+<img width="1228" alt="image" src="https://github.com/rachderossi/DataViz/assets/64082110/752ccefc-ce0f-4281-8fae-50bc75dd7d2a">
