@@ -12,7 +12,7 @@ Após abrir a base de dados no Microsoft Excel:
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/5012b9ba-c5ff-4d5a-811e-a594739f8858" width = "300" height ="600">
 
 - O gráfico deve se parecer com esse
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/9b70f5c3-16f4-417a-b68c-11d1ed92ca88" width = "700" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/9b70f5c3-16f4-417a-b68c-11d1ed92ca88" width = "800" height ="600">
 
 ## Dispersão - Looker Studio
 
@@ -31,3 +31,6 @@ Após abrir o looker studio no seu navegador de preferência:
 
 - No botão acima de Configuraçâo escolha o gráfico do tipo dispersão
 - <img width="362" alt="image" src="https://github.com/rachderossi/DataViz/assets/64082110/290c72b4-d762-4567-b8a4-5d79283dc4ad">
+
+- O gráfico deve se parecer com esse
+<img width="794" alt="image" src="https://github.com/rachderossi/DataViz/assets/64082110/fed16d3d-9a85-4e41-86ba-ca9c81d27a50">
