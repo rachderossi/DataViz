@@ -26,7 +26,7 @@ Após abrir o Looker Studio no seu navegador de preferência:
 
 - Na aba Configuaração araste para o campo Dimensão e Dimensão detalhada a variável de data (ou outra que seja ordenada)
 - Arraste a outra variável no campo de Métrica
-- É possível clicar na aba Estilo ao lado de Configuaração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
+- É possível clicar na aba Estilo ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/10d496b1-2982-4c6c-8196-50f733f605f7" width = "300" height ="500">
 
 - No botão acima de Configuraçâo escolha o gráfico do tipo Área
