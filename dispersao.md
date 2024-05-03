@@ -2,7 +2,7 @@
 
 Após abrir a base de dados no Microsoft Excel:
 
-- Seleione as duas colunas que são do seu interesse para criar o gráfico de Dispersão
+- Selecione as duas colunas que são do seu interesse para criar o gráfico de Dispersão
 
 - Clique em Inserir > Gráfico
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/ce7eb30c-2871-44e2-9260-ab3c6a892302" width = "300" height ="600">
