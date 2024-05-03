@@ -7,7 +7,7 @@ Após abrir a base de dados no Microsoft Excel:
 - Clique em Inserir > Gráfico
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/ce7eb30c-2871-44e2-9260-ab3c6a892302" width = "300" height ="600">
 
-- Na aba Configuração escolha Área
+- Na aba Configuração escolha Linha
 - É possível clicar na aba Personalizar ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/823598a6-9790-4271-99aa-e76145c8e896" width = "300" height ="600">
 
