@@ -16,4 +16,4 @@ Após abrir o Looker Studio no seu navegador de preferência:
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/14951d24-d941-4a49-933d-f9bf69743d28" width = "500" height ="500">
 
 - O gráfico deve se parecer com esse
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/a6008e12-d5fd-4b1b-9c90-de61c98136c7" width = "800" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/d6ea204c-7ea5-4fb9-a4b4-3e0249407ab1" width = "800" height ="600">
