@@ -2,12 +2,12 @@
 
 Após abrir a base de dados no Microsoft Excel:
 
-- Selecione as duas colunas que são do seu interesse para criar o gráfico de Barras
+- Selecione as duas colunas que são do seu interesse para criar o gráfico de Barras Agrupadas
 
 - Clique em Inserir > Gráfico
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/ce7eb30c-2871-44e2-9260-ab3c6a892302" width = "300" height ="600">
 
-- Na aba Configuração escolha Barras
+- Na aba Configuração escolha Barras Agrupadas
 - É possível clicar na aba Personalizar ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/1b8b53bd-d8db-4f6f-8c72-0a1390500c1c" width = "300" height ="600">
 
@@ -28,7 +28,7 @@ Após abrir o Looker Studio no seu navegador de preferência:
 - É possível clicar na aba Estilo ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/86d2b3ac-5794-4085-8fe2-2fad35db270a" width = "300" height ="500">
 
-- No botão acima de Configuração escolha o gráfico do tipo Barras
+- No botão acima de Configuração escolha o gráfico do tipo Barras Agrupadas
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/70554cb3-ec64-45bc-ae35-79248bf74be4" width = "500" height ="500">
 
 - O gráfico deve se parecer com esse
