@@ -16,7 +16,7 @@ Após abrir a base de dados no Microsoft Excel:
 
 ## Dispersão - Looker Studio
 
-Após abrir o looker studio no seu navegador de preferência:
+Após abrir o Looker Studio no seu navegador de preferência:
 
 - Clique em Relatório em branco
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/d500679b-a633-47dd-82e6-906dd3857bc9" width = "1200" height ="600">
