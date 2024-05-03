@@ -8,7 +8,7 @@ Após abrir o Looker Studio no seu navegador de preferência:
 - Clique em Adicionar dados e escolha a conexão de sua preferência
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/752ccefc-ce0f-4281-8fae-50bc75dd7d2a" width = "900" height ="600">
 
-- Na aba Configuração araste para o campo Dimensão a variável categórica e no campo Métrica deve ser feito o cálculo de 5 métricas da outra variável: Mínimo, Máximo, Mediana e Percentil. No caso desse exemplo, o cálculo foi feito dessa maneira:
+- Na aba Configuração araste para o campo Dimensão a variável categórica e no campo Métrica deve ser feito o cálculo de 5 métricas da outra variável: Mínimo, Máximo, Mediana e Percentil 25 e Percentil 75. No caso desse exemplo, o cálculo foi feito dessa maneira:
 - MIN(hwy)
 - PERCENTILE(hwy,25)
 - MEDIAN(hwy)
