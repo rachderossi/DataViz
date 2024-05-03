@@ -9,10 +9,10 @@ Após abrir a base de dados no Microsoft Excel:
 
 - Na aba Configuração escolha Linha
 - É possível clicar na aba Personalizar ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/823598a6-9790-4271-99aa-e76145c8e896" width = "300" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/35bc55a0-f5a1-4419-b453-86d5970a7210" width = "300" height ="600">
 
 - O gráfico deve se parecer com esse
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/7378c57a-b364-490a-aee0-b031ca3980a6" width = "800" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/0d5d5155-2d10-4728-84bf-aa5bb490b918" width = "800" height ="600">
 
 ## Linha - Looker Studio
 
