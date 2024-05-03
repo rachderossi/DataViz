@@ -30,7 +30,7 @@ Após abrir o Looker Studio no seu navegador de preferência:
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/5e7f2040-4fa1-41d5-80e6-ffa8cfad781b" width = "500" height ="500">
 
 - No botão acima de Configuração escolha o gráfico do tipo Dispersão
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/290c72b4-d762-4567-b8a4-5d79283dc4ad" width = "500" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/290c72b4-d762-4567-b8a4-5d79283dc4ad" width = "500" height ="500">
 
 - O gráfico deve se parecer com esse
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/6ff4d247-aead-49a0-91e3-28123260efe6" width = "800" height ="600">
