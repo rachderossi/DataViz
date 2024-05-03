@@ -2,7 +2,7 @@
 
 Após abrir a base de dados no Microsoft Excel:
 
-- Seleione as duas colunas que são do seu interesse para criar o gráfico de dispersão
+- Seleione as duas colunas que são do seu interesse para criar o gráfico de Área
 
 - Clique em Inserir > Gráfico
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/ce7eb30c-2871-44e2-9260-ab3c6a892302" width = "300" height ="600">
@@ -16,7 +16,7 @@ Após abrir a base de dados no Microsoft Excel:
 
 ## Área - Looker Studio
 
-Após abrir o looker studio no seu navegador de preferência:
+Após abrir o Looker Studio no seu navegador de preferência:
 
 - Clique em Relatório em branco
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/d500679b-a633-47dd-82e6-906dd3857bc9" width = "1200" height ="600">
@@ -29,7 +29,7 @@ Após abrir o looker studio no seu navegador de preferência:
 - É possível clicar na aba Estilo ao lado de Configuaração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/10d496b1-2982-4c6c-8196-50f733f605f7" width = "300" height ="500">
 
-- No botão acima de Configuraçâo escolha o gráfico do tipo área
+- No botão acima de Configuraçâo escolha o gráfico do tipo Área
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/4877ea6b-1b11-4562-b58f-bc26815dc423" width = "400" height ="500">
 
 - O gráfico deve se parecer com esse
