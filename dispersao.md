@@ -19,7 +19,7 @@ Após abrir a base de dados no Microsoft Excel:
 Após abrir o Looker Studio no seu navegador de preferência:
 
 - Clique em Relatório em branco
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/d500679b-a633-47dd-82e6-906dd3857bc9" width = "800" height ="500">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/d500679b-a633-47dd-82e6-906dd3857bc9" width = "1000" height ="500">
 
 - Clique em Adicionar dados e escolha a conexão de sua preferência
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/752ccefc-ce0f-4281-8fae-50bc75dd7d2a" width = "900" height ="600">
