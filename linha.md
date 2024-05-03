@@ -29,7 +29,7 @@ Após abrir o Looker Studio no seu navegador de preferência:
 - É possível clicar na aba Estilo ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/10d496b1-2982-4c6c-8196-50f733f605f7" width = "300" height ="500">
 
-- No botão acima de Configuração escolha o gráfico do tipo Área
+- No botão acima de Configuração escolha o gráfico do tipo Linha
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/4877ea6b-1b11-4562-b58f-bc26815dc423" width = "500" height ="500">
 
 - O gráfico deve se parecer com esse
