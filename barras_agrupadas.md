@@ -12,7 +12,7 @@ Após abrir o Looker Studio no seu navegador de preferência:
 - É possível clicar na aba Estilo ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/919ec026-91ef-4ade-a6e0-a6d8085f68dc" width = "300" height ="500">
 
-- No botão acima de Configuração escolha o gráfico do tipo Barras Agrupadas
+- No botão acima de Configuração escolha o gráfico do tipo Barras 
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/70554cb3-ec64-45bc-ae35-79248bf74be4" width = "500" height ="500">
 
 - O gráfico deve se parecer com esse
