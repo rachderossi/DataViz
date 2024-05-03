@@ -9,7 +9,7 @@ Após abrir a base de dados no Microsoft Excel:
 
 - Na aba Configuração escolha Área
 - É possível clicar na aba Personalizar ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/7378c57a-b364-490a-aee0-b031ca3980a6" width = "800" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/823598a6-9790-4271-99aa-e76145c8e896" width = "800" height ="600">
 
 - O gráfico deve se parecer com esse
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/7378c57a-b364-490a-aee0-b031ca3980a6" width = "800" height ="600">
