@@ -30,7 +30,7 @@ Após abrir o looker studio no seu navegador de preferência:
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/10d496b1-2982-4c6c-8196-50f733f605f7" width = "300" height ="500">
 
 - No botão acima de Configuraçâo escolha o gráfico do tipo área
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/4877ea6b-1b11-4562-b58f-bc26815dc423" width = "500" height ="500">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/4877ea6b-1b11-4562-b58f-bc26815dc423" width = "400" height ="500">
 
 - O gráfico deve se parecer com esse
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/c590edc7-a6b4-4915-bea3-6c305fb0c0a6" width = "800" height ="600">
