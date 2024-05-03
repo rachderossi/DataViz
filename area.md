@@ -7,12 +7,12 @@ Após abrir a base de dados no Microsoft Excel:
 - Clique em Inserir > Gráfico
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/ce7eb30c-2871-44e2-9260-ab3c6a892302" width = "300" height ="600">
 
-- Na aba Configuração escolha Dispersão
+- Na aba Configuração escolha Área
 - É possível clicar na aba Personalizar ao lado de Configuração para editar o nome dos eixos, título do gráfico e valores máximos e mínimos do eixo horizontal e vertical
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/5012b9ba-c5ff-4d5a-811e-a594739f8858" width = "300" height ="600">
+<img src="image" src="https://github.com/rachderossi/DataViz/assets/64082110/26d6d87d-60ff-4f3f-917c-b3fec9ae4a8c" width = "300" height ="600">
 
 - O gráfico deve se parecer com esse
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/9b70f5c3-16f4-417a-b68c-11d1ed92ca88" width = "800" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/7378c57a-b364-490a-aee0-b031ca3980a6" width = "800" height ="600">
 
 ## Área - Looker Studio
 
