@@ -30,7 +30,8 @@ Após abrir o Looker Studio no seu navegador de preferência:
 <img src="https://github.com/rachderossi/DataViz/assets/64082110/10d496b1-2982-4c6c-8196-50f733f605f7" width = "300" height ="500">
 
 - No botão acima de Configuração escolha o gráfico do tipo Linha
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/4877ea6b-1b11-4562-b58f-bc26815dc423" width = "500" height ="500">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/fd9ccac1-ae3a-4375-adbd-cf5f97d1e9d5" width = "500" height ="500">
 
 - O gráfico deve se parecer com esse
-<img src="https://github.com/rachderossi/DataViz/assets/64082110/c590edc7-a6b4-4915-bea3-6c305fb0c0a6" width = "800" height ="600">
+<img src="https://github.com/rachderossi/DataViz/assets/64082110/1076431b-a9ac-45a0-9aa5-856a2cf3e342" width = "800" height ="600">
+
