@@ -17,8 +17,9 @@ carseats_filtered = carseats[carseats['Price'] < 300]
 plt.figure(figsize=(10, 6))
 sns.histplot(data=carseats_filtered, x='Price', color='#6E9AF8', alpha=0.8, fill=True, label='Preço')
 sns.histplot(data=carseats_filtered, x='CompPrice', color='#009E73', alpha=0.8, fill=True, label='Renda')
-plt.title('Distribuição de preço e renda')
-plt.xlabel('Valor')
+plt.title('Distribuição conjunta dos preços dos concorrentes e da 
+    empresa para assentos de carro em diferentes locais')
+plt.xlabel('Preço (dólar)')
 plt.ylabel('Frequência')
 plt.legend(title=None)
 plt.tight_layout()
