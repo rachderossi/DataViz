@@ -12,7 +12,7 @@ iris = sns.load_dataset('iris')
 plt.figure(figsize=(10, 6))
 # hue é a variável que agrupa os dados
 sns.histplot(data=iris, x='petal_length', hue='species', binwidth=0.2, alpha=0.5, multiple='stack', palette='Set1')
-plt.xlabel('Comprimento da pétala')
+plt.xlabel('Comprimento da pétala (cm)')
 plt.ylabel('Frequência')
 plt.title('Distribuição do comprimento da pétala por espécie de flor')
 plt.tight_layout()
