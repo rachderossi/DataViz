@@ -15,8 +15,8 @@ carseats_filtered = carseats[carseats['Price'] < 300]
 
 # Criar o gráfico de densidade
 plt.figure(figsize=(10, 6))
-sns.kdeplot(data=carseats_filtered, x='Price', fill=True, label='Preço', color='#6E9AF8', alpha=0.8)
-sns.kdeplot(data=carseats_filtered, x='CompPrice', fill=True, label='Renda', color='#009E73', alpha=0.8)
+sns.kdeplot(data=carseats_filtered, x='Price', fill=True, label='Empresa', color='#6E9AF8', alpha=0.8)
+sns.kdeplot(data=carseats_filtered, x='CompPrice', fill=True, label='Concorrente', color='#009E73', alpha=0.8)
 plt.title('Distribuição conjunta dos preços dos concorrentes e da 
     empresa para assentos de carro em diferentes locais')
 plt.xlabel('Preço (dólar)')
