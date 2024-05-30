@@ -15,8 +15,8 @@ library(readr)
   data %>%
     filter(Price < 300) %>% # Necessário apenas se quiser filtrar valores específicos
     ggplot() +
-    geom_histogram(aes(x = Price, fill = "preço"), alpha = 0.8) +  
-    geom_histogram(aes(x = CompPrice, fill = "renda"),  alpha = 0.8) +  
+    geom_histogram(aes(x = Price, fill = "empresa"), alpha = 0.8) +  
+    geom_histogram(aes(x = CompPrice, fill = "concorrente"),  alpha = 0.8) +  
     scale_fill_manual(values = c("#6E9AF8", "#009E73"), name= NULL) + # É possível definir cores para cada grupo 
     ggtitle("Distribuição conjunta dos preços dos concorrentes e da 
     empresa para assentos de carro em diferentes locais") +
