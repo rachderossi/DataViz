@@ -18,8 +18,14 @@ data %>%
     geom_density(aes(x = Price, fill = "preço"), alpha = 0.8) +  
     geom_density(aes(x = CompPrice, fill = "renda"), alpha = 0.8) +  
     scale_fill_manual(values = c("#6E9AF8", "#009E73"), name = NULL) + # É possível definir cores para cada grupo
-    ggtitle("Distribuição de preço e renda") +
-    xlab("valor") +
+    ggtitle("Distribuição conjunta dos preços dos concorrentes e da 
+    empresa para assentos de carro em diferentes locais") +
+    xlab("preço (dólar)") +
     ylab("densidade") +
     guides(fill = guide_legend(title.position = "left", title.hjust = 1, title = NULL)) +
-    theme_ipsum() 
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14),
+          legend.text = element_text(size = 14))
