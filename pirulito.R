@@ -26,4 +26,8 @@ data_freq <- arrange(data_freq, freq)
     xlab("classe") +
     ylab("frequência") +
     coord_flip() +
-    theme_ipsum()
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14))
