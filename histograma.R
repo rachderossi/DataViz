@@ -13,6 +13,7 @@ library(readr)
   data %>%
     filter(price<300 ) %>% # Necessário apenas se quiser filtrar valores específicos
     ggplot(aes(x=price)) +
+    geom_histogram(fill="#69b3a2", color="#e9ecef", alpha=0.8) +
     ggtitle("Preço por diária de apartamentos Airbnb na Riviera Francesa") +
     xlab("preço (euro)") +
     ylab("frequência") +
