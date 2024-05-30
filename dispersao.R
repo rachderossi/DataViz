@@ -15,9 +15,13 @@ library(readr)
   data %>%
     ggplot(aes(x = CompPrice, y = Price)) + 
     geom_point(size = 3, color = "#009E73") +
-    ggtitle("Relação entre o preço da mercadoria na empresa e no concorrente") +
-    xlab("preço no concorrente") +
-    ylab("preço na empresa") +
+    ggtitle("Relação entre o preço da mercadoria na empresa e concorrente") +
+    xlab("preço no concorrente (dólar)") +
+    ylab("preço na empresa (dólar)") +
     theme(legend.position = "left") + 
     guides(color = guide_legend(title = NULL)) +
-    theme_ipsum() 
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14))
