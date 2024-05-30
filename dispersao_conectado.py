@@ -20,7 +20,7 @@ plt.plot(df['Date'], df['Value'], marker='o', linestyle='-', color='grey', marke
 plt.scatter(df['Date'], df['Value'], color='#69b3a2', edgecolor='black', s=150)
 plt.title("Evolução do preço do Bitcoin")
 plt.xlabel("Data")
-plt.ylabel("Preço Bitcoin ($)")
+plt.ylabel("Preço (dólar)")
 plt.gca().invert_xaxis()  # Inverter o eixo x
 plt.xticks(rotation=45)
 plt.grid(True)
