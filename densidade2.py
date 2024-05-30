@@ -19,7 +19,7 @@ sns.kdeplot(data=carseats_filtered, x='Price', fill=True, label='Preço', color=
 sns.kdeplot(data=carseats_filtered, x='CompPrice', fill=True, label='Renda', color='#009E73', alpha=0.8)
 plt.title('Distribuição conjunta dos preços dos concorrentes e da 
     empresa para assentos de carro em diferentes locais')
-plt.xlabel('preço (dólar)')
+plt.xlabel('Preço (dólar)')
 plt.ylabel('Densidade')
 plt.legend(title=None, loc='upper left')
 plt.tight_layout()
