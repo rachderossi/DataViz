@@ -26,7 +26,8 @@ for name, color in zip(names, ['#6E9AF8', '#009E73', '#FFA07A']): # É possível
     data = filtered_data[filtered_data['name'] == name]
     # year é a variável x e percent é a variável y
     plt.plot(data['year'], data['percent'], label=name, color=color)
-plt.title('Popularidade de nomes Americanos nos últimos 30 anos')
+plt.title('Popularidade dos nomes Ashley, Patrícia e Helen
+                 nos EUA entre (1880-2020)')
 plt.xlabel('Ano')
 plt.ylabel('Percentual')
 plt.legend(title='Name', loc='upper right')
