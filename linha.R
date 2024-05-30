@@ -15,10 +15,14 @@ library(readr)
 data$date <- as.Date(data$date)
 
 # Criar o gráfico de linha
-  data %>%
-    ggplot(aes(x=date, y=value)) +
+data %>%
+    ggplot( aes(x=date, y=value)) +
     geom_line(color="#69b3a2") +
     ggtitle("Evolução do preço do Bitcoin") +
     xlab("ano") +
-    ylab("preço do Bitcoin ($)") +
-    theme_ipsum()
+    ylab("preço (dólar)") +
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14))
