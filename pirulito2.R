@@ -16,16 +16,21 @@ library(readr)
     arrange(Value) %>%
     tail(20) %>%
     mutate(Country=factor(Country, Country)) %>%
-    ggplot(aes(x=Country, y=Value) ) +
-    geom_segment(aes(x=Country ,xend=Country, y=0, yend=Value), color="grey") +
+    ggplot( aes(x=Country, y=Value) ) +
+    geom_segment( aes(x=Country ,xend=Country, y=0, yend=Value), color="grey") +
     geom_point(size=3, color="#69b3a2") +
     theme(
       panel.grid.minor.y = element_blank(),
       panel.grid.major.y = element_blank(),
       legend.position="none",
       plot.title = element_text(hjust = 0.5, size = 15)) +
-    ggtitle("Quantidade de armas exportadas pelos 20 maiores exportadores em 2017") +
+    ggtitle("Quantidade de armas exportadas pelos 
+    20 maiores exportadores em 2017") +
     xlab("países") +
     ylab("quantidade de armas") +
     coord_flip() +
-    theme_ipsum() 
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14))
