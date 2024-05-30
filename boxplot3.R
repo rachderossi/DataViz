@@ -18,4 +18,9 @@ library(readr)
     ylab("milhas por galão") +
     scale_fill_manual(values = c("#009E73", "#6E9AF8")) + # É possível definir cores para cada grupo
     guides(fill = guide_legend(title = NULL)) +
-    theme_ipsum() 
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14),
+          legend.text = element_text(size = 14))
