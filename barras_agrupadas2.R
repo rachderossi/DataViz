@@ -21,8 +21,14 @@ library(readr)
     ggplot( aes(x=year, y=n, fill=name)) +  
     geom_bar(stat="identity", position="dodge") +
     scale_fill_manual(values = c("Anna" = "#6E9AF8", "Mary" = "#69b3a2")) + # É possível definir cores para cada grupo
-    ggtitle("Número de bebês chamados Anna e Mary ao longo dos anos") +
+    ggtitle("Número de bebês chamados Anna e Mary 
+            nos EUA ao longo dos anos") +
     ylab("número de bebês") +
     xlab("anos") +
     guides(fill = guide_legend(title = NULL)) +
-    theme_ipsum() 
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14),
+          legend.text = element_text(size = 14))
