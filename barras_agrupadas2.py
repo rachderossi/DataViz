@@ -30,7 +30,8 @@ data = filtered_data.pivot_table(index='year', columns='name', values='percent',
 
 # Criar o gráfico de barras agrupadas
 data.plot(kind='bar', stacked=False, figsize=(12, 6))
-plt.title('Percentual de bebês chamados Anna e Mary ao longo dos anos')
+plt.title('Percentual de bebês bebês chamados Anna e Mary 
+            nos EUA ao longo dos anos')
 plt.xlabel('Anos')
 plt.ylabel('Percentual de bebês')
 plt.legend(title=None)
