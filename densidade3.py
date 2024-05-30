@@ -13,7 +13,7 @@ plt.figure(figsize=(10, 6))
 # hue é a variável que agrupa os dados
 sns.kdeplot(data=iris, x='sepal_length', hue='species', fill=True, alpha=0.5)
 plt.title('Distribuição do comprimento da sépala por espécie de flor')
-plt.xlabel('Comprimento da sépala')
+plt.xlabel('Comprimento da sépala (cm)')
 plt.ylabel('Densidade')
 plt.tight_layout()
 plt.show()
