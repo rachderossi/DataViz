@@ -15,4 +15,8 @@ library(readr)
     ylab("milhas por galão") +
     theme(legend.position = "left") + 
     guides(fill = guide_legend(title = NULL)) +
-    theme_ipsum() 
+    theme_ipsum() +
+    theme(axis.text.x = element_text(size = 14),
+          axis.text.y = element_text(size = 14),
+          axis.title.x = element_text(size = 14),
+          axis.title.y = element_text(size = 14))
